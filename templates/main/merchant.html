@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content  %}
+<section id="about" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="animatedParent">
+                <div class="section-heading text-center animated bounceInDown">
+                <h2 class="h-bold">Merchant</h2>
+                <div class="divider-header"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">
+                <h4>Merchant Pre-approval Application</h4>
+                <ol>
+                    <li>Please fill up the following application form for us to review and revert back to you.</li>
+                    <li>Incomplete or inappropriately-filled form submissions will not be entertained.</li>
+                    <li>Fields marked with an asterisk (*) are required</li>
+                </ol>
+            </div>
+        <div>
+        <div class="col-lg-8 col-lg-offset-2 animatedParent">
+            <form accept-charset="utf-8" action="https://www.awepay.biz/support/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" name="Merchant Preapproval Form"><input name="__vtrftk" type="hidden" value="sid:9e8f2c54bca3f2e6074e24a4312a510db831111f,1487328805" /><input name="publicid" type="hidden" value="468759e8026fd61fc177234d56985d5e" /><input name="name" type="hidden" value="Merchant Preapproval Form" /></p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label>Company*</label></td>
+                            <td><input name="company" required="" type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Salutation</label></td>
+                            <td>
+                                <select name="salutationtype">
+                                    <option value="">Select Value</option>
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                    <option value="Dr.">Dr.</option>
+                                    <option value="Prof.">Prof.</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>First Name*</label></td>
+                            <td><input name="firstname" required="" type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Last Name*</label></td>
+                            <td><input name="lastname" required="" type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Primary Email*</label></td>
+                            <td><input name="email" required="" type="email" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Mobile Phone</label></td>
+                            <td><input name="mobile" type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Skype ID</label></td>
+                            <td><input name="label:Skype_ID" type="" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Industry*</label>
+                            </td>
+                            <td>
+                                <select name="industry" required="">
+                                    <option value="">Select Value</option>
+                                    <option value="????">????</option>
+                                    <option value="Telco/MVNO">Telco/MVNO</option>
+                                    <option value="Bill Payment">Bill Payment</option>
+                                    <option value="Adult">Adult</option>
+                                    <option value="Auction">Auction</option>
+                                    <option value="Binary Options">Binary Options</option>
+                                    <option value="Clothing">Clothing</option>
+                                    <option value="Content">Content</option>
+                                    <option value="Dating">Dating</option>
+                                    <option value="Domain/Hosting">Domain/Hosting</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="Escorts">Escorts</option>
+                                    <option value="File Sharing">File Sharing</option>
+                                    <option value="FOREX">FOREX</option>
+                                    <option value="Gaming">Gaming</option>
+                                    <option value="Healthcare">Healthcare</option>
+                                    <option value="MP3">MP3</option>
+                                    <option value="Nutra">Nutra</option>
+                                    <option value="Pay Day Loans">Pay Day Loans</option>
+                                    <option value="Software">Software</option>
+                                    <option value="Sports Betting">Sports Betting</option>
+                                    <option value="Tech Support">Tech Support</option>
+                                    <option value="Tobacco">Tobacco</option>
+                                    <option value="Travel">Travel</option>
+                                    <option value="VOIP">VOIP</option>
+                                    <option value="Other">Other</option>
+                                    <option value="Prepaid Debit Cards">Prepaid Debit Cards</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Website*</label>
+                            </td>
+                            <td>
+                                <input name="website" required="" type="text" value="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Country*</label>
+                            </td>
+                            <td>
+                                <input name="country" required="" type="text" value="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Detailed description of products/services sold</label>
+                            </td>
+                            <td>
+                                <textarea name="label:Detailed_description_of_products/services_sold"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Current Processor</label>
+                            </td>
+                            <td>
+                                <input name="label:Current_Processor" type="text" value="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Monthly Transaction Volume (USD)</label>
+                            </td>
+                            <td>
+                                <input name="label:Monthly_Transaction_Volume_(USD)" type="number" value="" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Desired Payment Types*</label>
+                            </td>
+                            <td>
+                                <select style="width: 60%;" multiple="multiple" name="label:Desired_Payment_Types[]" required="">
+                                    <option value="Visa/Mastercard">Visa/Mastercard</option>
+                                    <option value="AMEX">AMEX</option>
+                                    <option value="JCB">JCB</option>
+                                    <option value="China Union Pay">China Union Pay</option>
+                                    <option value="AliPay">AliPay</option>
+                                    <option value="WeChat">WeChat</option>
+                                    <option value="ACH/eChecks">ACH/eChecks</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Desired Transaction Currencies*</label>
+                            </td>
+                            <td>
+                                <select style="width: 60%;" multiple="multiple" name="label:Desired_Transaction_Currencies[]" required="">
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="CNY">CNY</option>
+                                    <option value="HKD">HKD</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="THB">THB</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Desired Settlement Currencies*</label></td>
+                            <td>
+                                <select style="width: 60%;" multiple="multiple" name="label:Desired_Settlement_Currencies[]" required="">
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="CNY">CNY</option>
+                                    <option value="HKD">HKD</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="THB">THB</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select hidden="" name="leadstatus">
+                                    <option value="">Select Value</option>
+                                    <option value="Attempted to Contact">Attempted to Contact</option>
+                                    <option value=""></option>
+                                    <option value="Cold">Cold</option>
+                                    <option value="Contact in Future">Contact in Future</option>
+                                    <option value="Contacted">Contacted</option>
+                                    <option value="Hot">Hot</option>
+                                    <option value="Junk Lead">Junk Lead</option>
+                                    <option value="Lost Lead">Lost Lead</option>
+                                    <option value="Not Contacted">Not Contacted</option>
+                                    <option selected="selected" value="Pre Qualified">Pre Qualified</option>
+                                    <option value="Qualified">Qualified</option>
+                                    <option value="Warm">Warm</option>
+                                    <option value="On-boarded">On-boarded</option>
+                                    <option value="Archived">Archived</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px;" colspan="2">
+                                <input class="btn btn-primary" type="submit" value="Submit" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <form accept-charset="utf-8" action="https://www.awepay.biz/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" name="Merchant Preapproval Form">
+        <script type="text/javascript">window.onload = function() { var N=navigator.appName, ua=navigator.userAgent, tem;var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];M=M? [M[1], M[2]]: [N, navigator.appVersion, "-?"];var browserName = M[0];var form = document.forms[0], inputs = form.elements; form.onsubmit = function() { var required = [], att, val; for (var i = 0; i < inputs.length; i++) { att = inputs[i].getAttribute("required"); val = inputs[i].value; type = inputs[i].type; if(type == "email") {if(val != "") {var elemLabel = inputs[i].getAttribute("label");var emailFilter = /^[_/a-zA-Z0-9]+([!"#$%&#038;()*+,./:;<=>?\^_`{|}~-]?[a-zA-Z0-9/_/-])*@[a-zA-Z0-9]+([\_\-\.]?[a-zA-Z0-9]+)*\.([\-\_]?[a-zA-Z0-9])+(\.?[a-zA-Z0-9]+)?$/;var illegalChars= /[\(\)\<\>\,\;\:\"\[\]]/ ;if (!emailFilter.test(val)) {alert("For "+ elemLabel +" field please enter valid email address"); return false;} else if (val.match(illegalChars)) {alert(elemLabel +" field contains illegal characters");return false;}}}if (att != null) { if (val.replace(/^\s+|\s+$/g, "") == "") { required.push(inputs[i].getAttribute("label")); } } } if (required.length > 0) { alert("The following fields are required: " + required.join()); return false; } var numberTypeInputs = document.querySelectorAll("input[type=number]");for (var i = 0; i < numberTypeInputs.length; i++) { val = numberTypeInputs[i].value;var elemLabel = numberTypeInputs[i].getAttribute("label");if(val != "") {var intRegex = /^[+-]?\d+$/;if (!intRegex.test(val)) {alert("For "+ elemLabel +" field please enter valid number"); return false;}}}}; }</script></p>
+            </form>
+        </div>
+</section>
+{% endblock %}

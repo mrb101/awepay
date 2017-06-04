@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content  %}
+<section id="about" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="animatedParent">
+                    <div class="section-heading text-center animated bounceInDown">
+                        <h2 class="h-bold">Merchant</h2>
+                        <div class="divider-header"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">
+                <h4>Signup as an AWEpay Partner</h4>
+                <p>At AWEpay, we are always constantly on the lookout for processing partners, resellers and agents for long term mutually beneficial arrangements in the online payments industry. Please fill in your details and our dedicated account manager will get in touch with you as soon as possible to discuss further how we can help each other. We look forward to working with you, signup now:-</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">
+                <form accept-charset="utf-8" action="https://www.awepay.biz/support/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" name="Partner Application Form"><input name="__vtrftk" type="hidden" value="sid:277478f29945911182e336c7028e8d5b4e74a53c,1436187802" /><input name="publicid" type="hidden" value="468759e8026fd81fc188234d56985d5e" /><input name="name" type="hidden" value="Partner Application Form" /></p>
+                <table border="0" align="center">
+                <tbody>
+                <tr>
+                <td style="padding: 5px;"><label>Lead Source</label></td>
+                <td style="padding: 5px;"><select name="label:Lead_Source"><option value="">Select Value</option><option value="Advertisement">Advertisement</option><option value="Cold Call">Cold Call</option><option value="Employee Referral">Employee Referral</option><option value="External Referral">External Referral</option><option value="Online Store">Online Store</option><option value="Partner">Partner</option><option value="Public Relations">Public Relations</option><option value="Sales Mail Alias">Sales Mail Alias</option><option value="Seminar Partner">Seminar Partner</option><option value="Seminar-Internal">Seminar-Internal</option><option value="Trade Show">Trade Show</option><option value="Web Download">Web Download</option><option value="Web Research">Web Research</option><option value="Web Cases">Web Cases</option><option value="Web Mail">Web Mail</option><option value="Chat">Chat</option><option value="Other">Other</option></select></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Salutation</label></td>
+                <td style="padding: 5px;"><select name="label:Salutation"><option value="">Select Value</option><option value="Mr.">Mr.</option><option value="Mrs.">Mrs.</option><option value="Ms.">Ms.</option><option value="Dr.">Dr.</option><option value="Prof.">Prof.</option></select></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>First Name<span style="color: red;">*</span></label></td>
+                <td style="padding: 5px;"><input name="label:First_Name" required="" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Last Name<span style="color: red;">*</span></label></td>
+                <td style="padding: 5px;"><input name="label:Last_Name" required="" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mobile Phone</label></td>
+                <td style="padding: 5px;"><input name="label:Mobile_Phone" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Primary Email<span style="color: red;">*</span></label></td>
+                <td style="padding: 5px;"><input name="label:Primary_Email" required="" type="email" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Skype ID</label></td>
+                <td style="padding: 5px;"><input name="label:Skype_ID" type="" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Company Name<span style="color: red;">*</span></label></td>
+                <td style="padding: 5px;"><input name="partnername" required="" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Website</label></td>
+                <td style="padding: 5px;"><input name="label:Website" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Ecommerce Experience<span style="color: red;">*</span></label></td>
+                <td style="padding: 5px;"><select name="label:Ecommerce_Experience" required=""><option value="">Select Value</option><option value="Less than 1 year">Less than 1 year</option><option value="1 to 3 years">1 to 3 years</option><option value="More than 3 years">More than 3 years</option></select></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Own/operate a payment gateway?</label></td>
+                <td style="padding: 5px;"><input name="label:Own/operate_a_payment_gateway?" type="hidden" value="0" /><input name="label:Own/operate_a_payment_gateway?" type="checkbox" value="1" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Registered ISO with VISA/Mastercard?</label></td>
+                <td style="padding: 5px;"><input name="label:Registered_ISO_with_VISA/Mastercard?" type="hidden" value="0" /><input name="label:Registered_ISO_with_VISA/Mastercard?" type="checkbox" value="1" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mailing Street</label></td>
+                <td style="padding: 5px;"><input name="label:Mailing_Street" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mailing City</label></td>
+                <td style="padding: 5px;"><input name="label:Mailing_City" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mailing Zip</label></td>
+                <td style="padding: 5px;"><input name="label:Mailing_Zip" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mailing State</label></td>
+                <td style="padding: 5px;"><input name="label:Mailing_State" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;"><label>Mailing Country</label></td>
+                <td style="padding: 5px;"><input name="label:Mailing_Country" type="text" value="" /></td>
+                </tr>
+                <tr>
+                <td style="padding: 5px;" colspan="2"><input class="btn btn-primary" type="submit" value="Submit" /></td>
+                </tr>
+                </tbody>
+                </table>
+                </form>
+            </div>
+        </div>
+    <div>
+</section>
+
+{% endblock %}
