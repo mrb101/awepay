@@ -4,11 +4,11 @@ a:focus {
 }
 
 #navigation {
-	border-top: 5px solid #3dc9b3;
+	border-top: 5px solid #4c65cf;
 }
 
 a,.tp-caption a.btn:hover {
-	color: #3dc9b3;
+	color: #c0cddb;
 }
 .top-nav-collapse {
 	background: #3dc9b3;

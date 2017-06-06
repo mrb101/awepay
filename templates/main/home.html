@@ -1,71 +1,35 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block hero %}
-{% include 'main/partials/hero.html' %}
 {% endblock %}
 {% block content %}
+
+
+    {% include 'main/partials/hero.html' %}
 <!-- Section: about -->
-<section id="about" class="home-section color-dark bg-white">
-    <div class="container marginbot-50">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <div class="animatedParent">
-                    <div class="section-heading text-center animated bounceInDown">
-                        <h2 class="h-bold">WHAT WE DO</h2>
-                        <div class="divider-header"></div>
+    <section id="about" class="home-section color-dark bg-white">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="animatedParent">
+                        <div class="section-heading text-center animated bounceInDown">
+                            <h2 class="h-bold">WHAT WE DO</h2>
+                            <div class="divider-header"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-
+    </section>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 animatedParent">
                 <div class="text-center">
                     <p>At AWEpay, we pride ourselves on long term partnerships backed by strong business ethics and absolute accountability to our clients. We emphasize on providing you with the best solution tailored to the needs of the industry that you are in. As the online payment landscape is ever constantly growing and evolving, we do things differently by working closely and openly with our clients to enable business continuity whilst safeguarding your revenue streams.</p>
                     <p>Our years of expertise in the payment processing industry is backed by an extensive international network, strong business acumen, innovative spirit and industry foresight. Sign up today, and find out why more and more merchants work with the AWEpay team with continued confidence and trust!</p>
-                    <a href="#service" class="btn btn-skin btn-scroll">What we do</a>
                 </div>
             </div>
         </div>
         <br>
-        <div class="row" style="margin-top: 100px">
-            <div class="col-lg-2 col-lg-offset-1 animatedParent">
-                <img src="{% static 'img/sofort.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/discovery.png' %}"></img>
-            </div>
-        <div class="row">
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/amex.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/visa.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/union.png' %}"></img>
-            </div>
-            <div class="col-lg-2  col-lg-offset-1 animatedParent">
-                <img src="{% static 'img/poli1.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/mastercard.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/jcb.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/echeck.png' %}"></img>
-            </div>
-            <div class="col-lg-2 animatedParent">
-                <img src="{% static 'img/diners.png' %}"></img>
-            </div>
-        </div>
-    </div>
-
 </section>
 <!-- /Section: about -->
 {% endblock %}
