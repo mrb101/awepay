@@ -25,17 +25,16 @@
                 </ol>
             </div>
         <div>
-        <div class="col-lg-8 col-lg-offset-2 animatedParent">
+        <div class="col-lg-8 col-lg-offset-2">
             <form accept-charset="utf-8" action="https://www.awepay.biz/support/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" name="Merchant Preapproval Form"><input class="form-control" name="__vtrftk" type="hidden" value="sid:9e8f2c54bca3f2e6074e24a4312a510db831111f,1487328805" /><input class="form-control" name="publicid" type="hidden" value="468759e8026fd61fc177234d56985d5e" /><input class="form-control" name="name" type="hidden" value="Merchant Preapproval Form" /></p>
-                <table>
-                    <tbody>
-                        <tr>
-                            <div class="form-group"><label>Company*</label></td>
-                            <div class="form-group"><input class="form-control" name="company" required="" type="text" value="" /></td>
-                        </tr>
-                        <tr>
-                            <div class="form-group"><label>Salutation</label></td>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
                             <div class="form-group">
+                                <label>Company*</label>
+                                <input class="form-control" name="company" required="" type="text" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label>Salutation</label>
                                 <select class="form-control" name="salutationtype">
                                     <option value="">Select Value</option>
                                     <option value="Mr.">Mr.</option>
@@ -44,7 +43,7 @@
                                     <option value="Dr.">Dr.</option>
                                     <option value="Prof.">Prof.</option>
                                 </select class="form-control">
-                            </td>
+                            </div>
                             <div class="form-group">
                                 <label>First Name*</label>
                                 <input class="form-control" name="firstname" required="" type="text" value="" />
@@ -106,6 +105,8 @@
                                 <label>Country*</label>
                                 <input class="form-control" name="country" required="" type="text" value="" />
                             </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
                             <div class="form-group">
                                 <label>Detailed description of products/services sold</label>
                                 <textarea class="form-control" rows="5" name="label:Detailed_description_of_products/services_sold"></textarea>
@@ -177,13 +178,12 @@
                                     <option value="Archived">Archived</option>
                                 </select class="form-control">
                             </div>
-                        <tr>
-                            <td style="padding: 5px;" colspan="2">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
                                 <input class="form-control" class="btn btn-primary" type="submit" value="Submit" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                        </div>
+                    </div>
             </form>
             <form accept-charset="utf-8" action="https://www.awepay.biz/modules/Webforms/capture.php" enctype="multipart/form-data" method="post" name="Merchant Preapproval Form">
         <script type="text/javascript">window.onload = function() { var N=navigator.appName, ua=navigator.userAgent, tem;var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];M=M? [M[1], M[2]]: [N, navigator.appVersion, "-?"];var browserName = M[0];var form = document.forms[0], input class="form-control"s = form.elements; form.onsubmit = function() { var required = [], att, val; for (var i = 0; i < input class="form-control"s.length; i++) { att = input class="form-control"s[i].getAttribute("required"); val = input class="form-control"s[i].value; type = input class="form-control"s[i].type; if(type == "email") {if(val != "") {var elemLabel = input class="form-control"s[i].getAttribute("label");var emailFilter = /^[_/a-zA-Z0-9]+([!"#$%&#038;()*+,./:;<=>?\^_`{|}~-]?[a-zA-Z0-9/_/-])*@[a-zA-Z0-9]+([\_\-\.]?[a-zA-Z0-9]+)*\.([\-\_]?[a-zA-Z0-9])+(\.?[a-zA-Z0-9]+)?$/;var illegalChars= /[\(\)\<\>\,\;\:\"\[\]]/ ;if (!emailFilter.test(val)) {alert("For "+ elemLabel +" field please enter valid email address"); return false;} else if (val.match(illegalChars)) {alert(elemLabel +" field contains illegal characters");return false;}}}if (att != null) { if (val.replace(/^\s+|\s+$/g, "") == "") { required.push(input class="form-control"s[i].getAttribute("label")); } } } if (required.length > 0) { alert("The following fields are required: " + required.join()); return false; } var numberTypeInputs = document.querySelectorAll("input class="form-control"[type=number]");for (var i = 0; i < numberTypeInputs.length; i++) { val = numberTypeInputs[i].value;var elemLabel = numberTypeInputs[i].getAttribute("label");if(val != "") {var intRegex = /^[+-]?\d+$/;if (!intRegex.test(val)) {alert("For "+ elemLabel +" field please enter valid number"); return false;}}}}; }</script></p>
